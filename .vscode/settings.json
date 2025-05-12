@@ -1,0 +1,10 @@
+{
+    // 打开 Makefile 时自动配置 IntelliSense（可选）
+    "makefile.configureOnOpen": true,
+  
+    // 固定 Python 解释器路径，指向本地 venv
+    "python.defaultInterpreterPath": "${workspaceFolder}/venv/bin/python",
+    // 开启索引加速分析（可选）
+    "python.analysis.indexing": true
+  }
+  

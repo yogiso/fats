@@ -1,0 +1,19 @@
+在使用天勤量化之前，默认您已经知晓并同意以下免责条款，如果不同意请立即停止使用：https://www.shinnytech.com/blog/disclaimer/
+/sys/firmware/dmi/tables/smbios_entry_point: Permission denied
+Can't read memory from /dev/mem
+/sys/firmware/dmi/tables/smbios_entry_point: Permission denied
+Can't read memory from /dev/mem
+2025-05-16 10:07:04 -     INFO - TqSdk trial 版剩余 14 天到期，如需续费或升级请访问 https://account.shinnytech.com/ 或联系相关工作人员。
+2025-05-16 10:07:04 -  WARNING - 通知 33336705: 与 tcp://101.230.79.235:33205 的网络连接断开，请检查客户端及网络是否正常
+2025-05-16 10:07:04 -     INFO - 通知 : 与 wss://api.shinnytech.com/t/nfmd/front/mobile 的网络连接已建立
+2025-05-16 10:07:14 -  WARNING - 通知 33336705: 开始与 tcp://101.230.79.235:33205 的重新建立网络连接
+2025-05-16 10:07:14 -  WARNING - 通知 33336705: 与 tcp://101.230.79.235:33205 的网络连接断开，请检查客户端及网络是否正常
+2025-05-16 10:07:48 -  WARNING - 通知 33336705: 开始与 tcp://101.230.79.235:33205 的重新建立网络连接
+2025-05-16 10:07:48 -  WARNING - 通知 33336705: 与 tcp://101.230.79.235:33205 的网络连接断开，请检查客户端及网络是否正常
+Traceback (most recent call last):
+  File "/home/yogi/fats/scripts/test_hongyuan.py", line 5, in <module>
+    api = TqApi(
+          ^^^^^^
+  File "/home/yogi/fats/venv/lib64/python3.11/site-packages/tqsdk/api.py", line 287, in __init__
+    raise TqTimeoutError("接收数据超时，请检查客户端及网络是否正常")
+tqsdk.exceptions.TqTimeoutError: 接收数据超时，请检查客户端及网络是否正常
